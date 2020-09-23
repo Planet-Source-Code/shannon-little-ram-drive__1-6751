@@ -1,0 +1,47 @@
+Attribute VB_Name = "History"
+Sub Data()
+
+ntRAM Drive
+'Current Version = 1.0
+
+Program History
+---------------
+
+'v1.0
+-------
+2/25/00 - Added the final error checking and released version 1.0
+2/24/00 - Added the routines to write and read the Config.sys file
+2/23/00 - I started this program just because it looked fun to make
+            The UI is finished and now I just have to add the code to
+            read the config.sys file and write the lines to it
+
+
+Known Errors
+------------
+
+
+
+Features To Add
+---------------
+
+None yet
+
+
+'Info on RamDrive.sys
+'--------------------
+'device=[drive:][path]RamDrive.sys[DiskSize SectorSize NumEntries] [/e][/a]
+'[drive][path]-- where ramdrive.sys resides
+'DiskSize-- the size of your ramdrive in kilobytes
+'SectorSize-- the size of the disk sector. You need to specify disk size before you can include sector size
+'NumEntries-- specifies the number of files and directories within the root directory
+'
+'Switches
+'/e-- creates the RAM disk within extended memory not conventional or expanded
+'/a-- creates the RAM disk within expanded memory not conventional or extended
+'
+'Here 're a few examples of how you use it;
+'device = ramdrive.sys / e
+'device=c:\dos\ramdrive.sys 4096 /a
+'device=d:\devices\ramdrive.sys 1024 512 1024 /e
+
+End Sub
