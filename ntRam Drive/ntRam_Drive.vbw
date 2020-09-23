@@ -1,0 +1,14 @@
+frmMain = 122, 117, 570, 405, C, 62, 92, 475, 399, C
+frmAbout = 0, 0, 0, 0, C, 66, 66, 582, 563, C
+frmDisclaimer = 0, 0, 0, 0, C, 176, 176, 624, 652, C
+modRegistry = 0, 0, 0, 0, C
+frmAddRAMDrive = 50, 130, 595, 625, C, 140, 88, 523, 529, C
+History = 105, 66, 553, 542, C
+frmRemoveRAMDrive = 22, 32, 470, 508, C, 127, 121, 622, 357, C
+modCommonProgramFunctions = 0, 0, 0, 0, C
+modHardware = 0, 0, 0, 0, C
+modStartup = 44, 44, 555, 520, Z
+modStringOps = 0, 0, 0, 0, C
+modTreeView = 0, 0, 0, 0, C
+modWebFunctions = 0, 0, 0, 0, C
+modWinFunctions = 0, 0, 0, 0, C
